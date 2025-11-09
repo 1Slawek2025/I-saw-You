@@ -141,7 +141,8 @@ document.addEventListener("DOMContentLoaded", function () {
         <p>${data.message}</p>
       `;
       container.appendChild(item);
-    });
-});
+  });
+
+
 
 
