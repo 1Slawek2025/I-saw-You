@@ -116,6 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
       `;
       list.appendChild(item);
     });
+  }
 
   async function loadUserProfile(user) {
     const panel = document.getElementById('userProfilePanel');
@@ -140,6 +141,6 @@ document.addEventListener("DOMContentLoaded", function () {
         <p>${data.message}</p>
       `;
       container.appendChild(item);
-  });
-
-
+    });
+  }
+});
